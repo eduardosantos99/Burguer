@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@300;600&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url(./img/fundo.jpeg);
+    background-repeat:repeat
+    
+   
+}
+
+.container-button{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background-color: #cb1515;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+}
+
+button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    gap: 20px;
+}
+
+li{
+    border: 2px solid #8133ff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+p{
+    color: #fff;
+}
+.item-price{
+    font-weight: bold;
+    color: floralwhite;
+}
+
+.button-teste{
+    background-color: #000;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    border: 5px solid #cb1515;
+    border-radius: 5px;
+    padding: 5px;
+    width: auto;
+    font-weight: 800;
+    color: #fff;
+    
+}
